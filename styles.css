@@ -1,0 +1,22 @@
+* {
+    font-family: Helvetica, sans-serif;
+                                                
+}
+
+body {
+    background-color: #dadada;
+}
+
+.container {
+    display: flex;
+    background-color: white;
+    width: 40vw; 
+    margin: auto;
+    border-radius: 3px;
+    padding: 1rem;
+    justify-content: center;
+}
+
+p {
+    font-size: 18px;
+}
