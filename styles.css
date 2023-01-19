@@ -1,22 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
 * {
-    font-family: Helvetica, sans-serif;
-                                                
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
-    background-color: #dadada;
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    background-color: #282828;
 }
 
 .container {
     display: flex;
-    background-color: white;
-    width: 40vw; 
+    width: 30rem; 
+    height: 30rem;
     margin: auto;
     border-radius: 3px;
     padding: 1rem;
     justify-content: center;
 }
 
-p {
-    font-size: 18px;
+h2 {
+    font-size: 32px;
+    color: white;
 }
