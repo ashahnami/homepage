@@ -20,7 +20,7 @@ body {
     padding-right: 2rem;
     margin-right: auto;
     margin-left: auto;
-    background-color: #292c2f;
+    background-color: #1d1f21;
 }
 
 .content {
@@ -38,47 +38,19 @@ body {
 
 #header h1 {
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 800;
     color: #d6d7d8;
 }
 
-#header nav {
-    font-size: 0.8rem;
-}
-
-#header nav ul li {
-    display: inline-block;
-    margin-right: 12px;
-    vertical-align: middle;
-}
-
-#header nav ul a {
-    color: #fff;
-    text-decoration: none;
-}
-
-#header nav ul a:hover {
-    text-decoration: underline;
-}
-
 h2 {
-    font-size: 32px;
+    font-size: 1.5rem;
 }
 
 nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
-}
-
-#about p a {
-    margin-right: 5px;
-    font-size: 20px;
-}
-
-.fa:hover {
-    color: grey;
 }
 
 #footer {
@@ -94,19 +66,4 @@ nav ul {
 
 #footer .footer-left {
     color: grey;
-}
-
-#footer nav ul li {
-    display: inline-block;
-    margin-right: 12px;
-    vertical-align: middle;
-}
-
-#footer nav ul a {
-    text-decoration: none;
-    color: grey;
-}
-
-#footer nav ul a:hover {
-    text-decoration: underline;
 }
