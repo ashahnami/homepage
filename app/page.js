@@ -6,18 +6,44 @@ export default function Home() {
           <div className="text-3xl text-center">Armin Shahnami</div>
         </header>
 
-        <section id="projects">
+        <section id="about">
+          <div className="text-xl">About</div>
+
+          <div>Hi, I'm a final year Computer Science student studying at Queen Mary University of London.</div>
+        </section>
+
+        <section id="projects" className="flex flex-col gap-1">
             <div className="text-xl">Projects</div>
 
-            <ul>
-                <li>
-                    <a href="https://github.com/ashahnami/paper-trader" className="font-medium text-blue-400 hover:underline">paper-trader</a> - Paper Trading Platform
-                </li>
+            <div className="flex flex-col gap-4">
+              <div className="flex flex-col justify-between bg-project-background h-24 p-2 rounded">
+                <div className="text-lg">
+                  Paper Trader
+                </div>
 
-                <li>
-                    <a href="https://github.com/ashahnami/typing-game" className="font-medium text-blue-400 hover:underline">typing-game</a> - Typing Test Game 
-                </li>
-            </ul>
+                <div className="text-md">
+                  A full-stack web application for paper trading stocks.
+                </div>
+
+                <div className="text-sm">
+                  The repository can be found at <a href="https://github.com/ashahnami/paper-trader" className="font-medium text-blue-400 hover:underline">github.com/ashahnami/paper-trader</a>.
+                </div>
+              </div>
+
+              <div className="flex flex-col justify-between bg-project-background h-24 p-2 rounded">
+                <div className="text-lg">
+                  Typing Game
+                </div>
+
+                <div className="text-md">
+                  A multiplayer typing race website.
+                </div>
+
+                <div className="text-sm">
+                  The repository can be found at <a href="https://github.com/ashahnami/typing-game" className="font-medium text-blue-400 hover:underline">github.com/ashahnami/typing-game</a>.
+                </div>
+              </div>
+            </div>
 
             <div className="text-lg mt-2">Misc</div>
 
